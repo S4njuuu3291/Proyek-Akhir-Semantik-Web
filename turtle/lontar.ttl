@@ -1,0 +1,215 @@
+@prefix : <http://yusupbanyuwangi.org/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+
+############################
+# Deklarasi Ontologi
+############################
+
+<http://yusupbanyuwangi.org/ontology> a owl:Ontology ;
+    rdfs:label "Ontologi Lontar Yusup Banyuwangi"@id ;
+    dcterms:creator "Kelompok SemWeb" ;
+    dcterms:created "2025-05-20"^^xsd:date ;
+    owl:versionInfo "1.0" .
+
+############################
+# Definisi Class
+############################
+
+:Manuskrip a owl:Class ;
+    rdfs:label "Manuskrip"@id ;
+    rdfs:comment "Representasi naskah kuno Lontar Yusup."@id .
+
+:BarisNaskah a owl:Class ;
+    rdfs:label "Baris Naskah"@id ;
+    rdfs:comment "Satu baris dalam naskah Lontar."@id .
+
+:TeksAksara a owl:Class ;
+    rdfs:label "Teks Aksara"@id ;
+    rdfs:comment "Teks dalam aksara asli (Arab Pegon)."@id .
+
+:Transliterasi a owl:Class ;
+    rdfs:label "Transliterasi"@id ;
+    rdfs:comment "Teks hasil transliterasi ke Latin."@id .
+
+:Terjemahan a owl:Class ;
+    rdfs:label "Terjemahan"@id ;
+    rdfs:comment "Teks hasil terjemahan ke Bahasa Indonesia."@id .
+
+:SistemTulisan a owl:Class ;
+    rdfs:label "Sistem Tulisan"@id ;
+    rdfs:comment "Jenis sistem tulisan yang digunakan (misal Pegon)."@id .
+
+############################
+# Definisi ObjectProperty
+############################
+
+:isFromManuscript a owl:ObjectProperty ;
+    rdfs:label "berasal dari manuskrip"@id ;
+    rdfs:domain :BarisNaskah ;
+    rdfs:range :Manuskrip .
+
+:mengandungAksara a owl:ObjectProperty ;
+    rdfs:label "mengandung aksara"@id ;
+    rdfs:domain :BarisNaskah ;
+    rdfs:range :TeksAksara .
+
+:hasTransliteration a owl:ObjectProperty ;
+    rdfs:label "memiliki transliterasi"@id ;
+    rdfs:domain :BarisNaskah ;
+    rdfs:range :Transliterasi .
+
+:hasTranslation a owl:ObjectProperty ;
+    rdfs:label "memiliki terjemahan"@id ;
+    rdfs:domain :BarisNaskah ;
+    rdfs:range :Terjemahan .
+
+:ditulisMenggunakan a owl:ObjectProperty ;
+    rdfs:label "ditulis menggunakan"@id ;
+    rdfs:domain :Manuskrip ;
+    rdfs:range :SistemTulisan .
+
+lexinfo:script a owl:ObjectProperty ;
+    rdfs:label "script aksara"@id ;
+    rdfs:domain :TeksAksara ;
+    rdfs:range :SistemTulisan .
+
+############################
+# Definisi DataTypeProperty
+############################
+
+rdf:value a owl:DatatypeProperty ;
+    rdfs:label "nilai literal"@id ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:string .
+
+:keBahasa a owl:DatatypeProperty ;
+    rdfs:label "ke Bahasa"@id ;
+    rdfs:domain :Terjemahan ;
+    rdfs:range xsd:string .
+
+:dariBahasa a owl:DatatypeProperty ;
+    rdfs:label "dari Bahasa"@id ;
+    rdfs:domain :Terjemahan ;
+    rdfs:range xsd:string .
+
+:menggunakanAturan a owl:DatatypeProperty ;
+    rdfs:label "menggunakan aturan"@id ;
+    rdfs:domain :Transliterasi ;
+    rdfs:range xsd:string .
+
+############################
+# Instance
+############################
+
+:naskahYusup01 a :Manuskrip ;
+    dcterms:title "Lontar Yusup Banyuwangi"@jv ;
+    dcterms:language "jv" ;
+    :ditulisMenggunakan :AksaraPegon .
+
+:AksaraPegon a :SistemTulisan ;
+    rdfs:label "Arab Pegon"@id ;
+
+:baris001 a :BarisNaskah ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris001 ;
+    :hasTransliteration :translit_baris001 ;
+    :hasTranslation :terjemah_baris001 ;
+    dcterms:identifier "YUSUP01-B001" .
+
+:aksara_baris001 a :TeksAksara ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris001.png"@urlImage;
+    lexinfo:script :AksaraPegon ;
+
+:translit_baris001 a :Transliterasi ;
+    rdf:value "Tan kocapa"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:terjemah_baris001 a :Terjemahan ;
+    rdf:value "Tiada diceritakan lagi"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "jv" .
+
+:baris002 a :BarisNaskah ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris002 ;
+    :hasTransliteration :translit_baris002 ;
+    :hasTranslation :terjemah_baris002 ;
+    dcterms:identifier "YUSUP01-B002" .
+
+:aksara_baris002 a :TeksAksara ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris002.png"@urlImage;
+    lexinfo:script :AksaraPegon ;
+
+:translit_baris002 a :Transliterasi ;
+    rdf:value "wong wadon iku dening wang"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:terjemah_baris002 a :Terjemahan ;
+    rdf:value "tentang wanita itu "@id ;
+    :keBahasa "id" ;
+    :dariBahasa "jv" .
+
+:baris003 a :BarisNaskah ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris003 ;
+    :hasTransliteration :translit_baris003 ;
+    :hasTranslation :terjemah_baris003 ;
+    dcterms:identifier "YUSUP01-B003" .
+
+:aksara_baris003 a :TeksAksara ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris003.png"@urlImage;
+    lexinfo:script :AksaraPegon ;
+
+:translit_baris003 a :Transliterasi ;
+    rdf:value "ana kocapa malih"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:terjemah_baris003 a :Terjemahan ;
+    rdf:value "ada kisah lagi"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "jv" .
+
+:baris004 a :BarisNaskah ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris004 ;
+    :hasTransliteration :translit_baris004 ;
+    :hasTranslation :terjemah_baris004 ;
+    dcterms:identifier "YUSUP01-B004" .
+
+:aksara_baris004 a :TeksAksara ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris004.png"@urlImage;
+    lexinfo:script :AksaraPegon ;
+
+:translit_baris004 a :Transliterasi ;
+    rdf:value "putêri nateng Temas"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:terjemah_baris004 a :Terjemahan ;
+    rdf:value "Putri dari Temas"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "jv" .
+
+:baris005 a :BarisNaskah ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris005 ;
+    :hasTransliteration :translit_baris005 ;
+    :hasTranslation :terjemah_baris005 ;
+    dcterms:identifier "YUSUP01-B005" .
+
+:aksara_baris005 a :TeksAksara ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris005.png"@urlImage;
+    lexinfo:script :AksaraPegon ;
+
+:translit_baris005 a :Transliterasi ;
+    rdf:value "namanira Jaleka"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:terjemah_baris005 a :Terjemahan ;
+    rdf:value "yang bernama Zulaikha"@id ;
+    :keBahasa "id" ;
+    :dariBahasa "jv" .
