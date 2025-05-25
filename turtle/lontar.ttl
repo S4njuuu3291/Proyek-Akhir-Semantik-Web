@@ -112,7 +112,7 @@ rdf:value a owl:DatatypeProperty ;
     :ditulisMenggunakan :AksaraPegon .
 
 :AksaraPegon a :SistemTulisan ;
-    rdfs:label "Arab Pegon"@id ;
+    rdfs:label "Arab Pegon"@id .
 
 :baris001 a :BarisNaskah ;
     :isFromManuscript :naskahYusup01 ;
@@ -123,7 +123,7 @@ rdf:value a owl:DatatypeProperty ;
 
 :aksara_baris001 a :TeksAksara ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris001.png"@urlImage;
-    lexinfo:script :AksaraPegon ;
+    lexinfo:script :AksaraPegon .
 
 :translit_baris001 a :Transliterasi ;
     rdf:value "Tan kocapa"@jv-Latn ;
@@ -143,7 +143,7 @@ rdf:value a owl:DatatypeProperty ;
 
 :aksara_baris002 a :TeksAksara ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris002.png"@urlImage;
-    lexinfo:script :AksaraPegon ;
+    lexinfo:script :AksaraPegon .
 
 :translit_baris002 a :Transliterasi ;
     rdf:value "wong wadon iku dening wang"@jv-Latn ;
@@ -163,7 +163,7 @@ rdf:value a owl:DatatypeProperty ;
 
 :aksara_baris003 a :TeksAksara ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris003.png"@urlImage;
-    lexinfo:script :AksaraPegon ;
+    lexinfo:script :AksaraPegon .
 
 :translit_baris003 a :Transliterasi ;
     rdf:value "ana kocapa malih"@jv-Latn ;
@@ -183,7 +183,7 @@ rdf:value a owl:DatatypeProperty ;
 
 :aksara_baris004 a :TeksAksara ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris004.png"@urlImage;
-    lexinfo:script :AksaraPegon ;
+    lexinfo:script :AksaraPegon .
 
 :translit_baris004 a :Transliterasi ;
     rdf:value "putêri nateng Temas"@jv-Latn ;
@@ -203,7 +203,7 @@ rdf:value a owl:DatatypeProperty ;
 
 :aksara_baris005 a :TeksAksara ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris005.png"@urlImage;
-    lexinfo:script :AksaraPegon ;
+    lexinfo:script :AksaraPegon .
 
 :translit_baris005 a :Transliterasi ;
     rdf:value "namanira Jaleka"@jv-Latn ;
