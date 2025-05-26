@@ -1,0 +1,1934 @@
+@prefix : <http://yusupbanyuwangi.org/ontology#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:baris001 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B001" ;
+    :hasTranslation :terjemah_baris001 ;
+    :hasTransliteration :translit_baris001 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris001 .
+
+:baris002 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B002" ;
+    :hasTranslation :terjemah_baris002 ;
+    :hasTransliteration :translit_baris002 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris002 .
+
+:baris003 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B003" ;
+    :hasTranslation :terjemah_baris003 ;
+    :hasTransliteration :translit_baris003 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris003 .
+
+:baris004 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B004" ;
+    :hasTranslation :terjemah_baris004 ;
+    :hasTransliteration :translit_baris004 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris004 .
+
+:baris005 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B005" ;
+    :hasTranslation :terjemah_baris005 ;
+    :hasTransliteration :translit_baris005 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris005 .
+
+:baris006 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B006" ;
+    :hasTranslation :terjemah_baris006 ;
+    :hasTransliteration :translit_baris006 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris006 .
+
+:baris007 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B007" ;
+    :hasTranslation :terjemah_baris007 ;
+    :hasTransliteration :translit_baris007 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris007 .
+
+:baris008 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B008" ;
+    :hasTranslation :terjemah_baris008 ;
+    :hasTransliteration :translit_baris008 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris008 .
+
+:baris009 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B009" ;
+    :hasTranslation :terjemah_baris009 ;
+    :hasTransliteration :translit_baris009 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris009 .
+
+:baris010 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B010" ;
+    :hasTranslation :terjemah_baris010 ;
+    :hasTransliteration :translit_baris010 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris010 .
+
+:baris011 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B011" ;
+    :hasTranslation :terjemah_baris011 ;
+    :hasTransliteration :translit_baris011 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris011 .
+
+:baris012 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B012" ;
+    :hasTranslation :terjemah_baris012 ;
+    :hasTransliteration :translit_baris012 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris012 .
+
+:baris013 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B013" ;
+    :hasTranslation :terjemah_baris013 ;
+    :hasTransliteration :translit_baris013 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris013 .
+
+:baris014 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B014" ;
+    :hasTranslation :terjemah_baris014 ;
+    :hasTransliteration :translit_baris014 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris014 .
+
+:baris015 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B015" ;
+    :hasTranslation :terjemah_baris015 ;
+    :hasTransliteration :translit_baris015 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris015 .
+
+:baris016 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B016" ;
+    :hasTranslation :terjemah_baris016 ;
+    :hasTransliteration :translit_baris016 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris016 .
+
+:baris017 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B017" ;
+    :hasTranslation :terjemah_baris017 ;
+    :hasTransliteration :translit_baris017 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris017 .
+
+:baris018 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B018" ;
+    :hasTranslation :terjemah_baris018 ;
+    :hasTransliteration :translit_baris018 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris018 .
+
+:baris019 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B019" ;
+    :hasTranslation :terjemah_baris019 ;
+    :hasTransliteration :translit_baris019 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris019 .
+
+:baris020 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B020" ;
+    :hasTranslation :terjemah_baris020 ;
+    :hasTransliteration :translit_baris020 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris020 .
+
+:baris021 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B021" ;
+    :hasTranslation :terjemah_baris021 ;
+    :hasTransliteration :translit_baris021 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris021 .
+
+:baris022 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B022" ;
+    :hasTranslation :terjemah_baris022 ;
+    :hasTransliteration :translit_baris022 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris022 .
+
+:baris023 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B023" ;
+    :hasTranslation :terjemah_baris023 ;
+    :hasTransliteration :translit_baris023 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris023 .
+
+:baris024 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B024" ;
+    :hasTranslation :terjemah_baris024 ;
+    :hasTransliteration :translit_baris024 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris024 .
+
+:baris025 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B025" ;
+    :hasTranslation :terjemah_baris025 ;
+    :hasTransliteration :translit_baris025 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris025 .
+
+:baris026 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B026" ;
+    :hasTranslation :terjemah_baris026 ;
+    :hasTransliteration :translit_baris026 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris026 .
+
+:baris027 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B027" ;
+    :hasTranslation :terjemah_baris027 ;
+    :hasTransliteration :translit_baris027 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris027 .
+
+:baris028 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B028" ;
+    :hasTranslation :terjemah_baris028 ;
+    :hasTransliteration :translit_baris028 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris028 .
+
+:baris029 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B029" ;
+    :hasTranslation :terjemah_baris029 ;
+    :hasTransliteration :translit_baris029 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris029 .
+
+:baris030 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B030" ;
+    :hasTranslation :terjemah_baris030 ;
+    :hasTransliteration :translit_baris030 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris030 .
+
+:baris031 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B031" ;
+    :hasTranslation :terjemah_baris031 ;
+    :hasTransliteration :translit_baris031 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris031 .
+
+:baris032 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B032" ;
+    :hasTranslation :terjemah_baris032 ;
+    :hasTransliteration :translit_baris032 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris032 .
+
+:baris033 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B033" ;
+    :hasTranslation :terjemah_baris033 ;
+    :hasTransliteration :translit_baris033 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris033 .
+
+:baris034 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B034" ;
+    :hasTranslation :terjemah_baris034 ;
+    :hasTransliteration :translit_baris034 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris034 .
+
+:baris035 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B035" ;
+    :hasTranslation :terjemah_baris035 ;
+    :hasTransliteration :translit_baris035 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris035 .
+
+:baris036 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B036" ;
+    :hasTranslation :terjemah_baris036 ;
+    :hasTransliteration :translit_baris036 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris036 .
+
+:baris037 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B037" ;
+    :hasTranslation :terjemah_baris037 ;
+    :hasTransliteration :translit_baris037 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris037 .
+
+:baris038 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B038" ;
+    :hasTranslation :terjemah_baris038 ;
+    :hasTransliteration :translit_baris038 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris038 .
+
+:baris039 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B039" ;
+    :hasTranslation :terjemah_baris039 ;
+    :hasTransliteration :translit_baris039 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris039 .
+
+:baris040 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B040" ;
+    :hasTranslation :terjemah_baris040 ;
+    :hasTransliteration :translit_baris040 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris040 .
+
+:baris041 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B041" ;
+    :hasTranslation :terjemah_baris041 ;
+    :hasTransliteration :translit_baris041 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris041 .
+
+:baris042 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B042" ;
+    :hasTranslation :terjemah_baris042 ;
+    :hasTransliteration :translit_baris042 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris042 .
+
+:baris043 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B043" ;
+    :hasTranslation :terjemah_baris043 ;
+    :hasTransliteration :translit_baris043 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris043 .
+
+:baris044 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B044" ;
+    :hasTranslation :terjemah_baris044 ;
+    :hasTransliteration :translit_baris044 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris044 .
+
+:baris045 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B045" ;
+    :hasTranslation :terjemah_baris045 ;
+    :hasTransliteration :translit_baris045 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris045 .
+
+:baris046 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B046" ;
+    :hasTranslation :terjemah_baris046 ;
+    :hasTransliteration :translit_baris046 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris046 .
+
+:baris047 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B047" ;
+    :hasTranslation :terjemah_baris047 ;
+    :hasTransliteration :translit_baris047 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris047 .
+
+:baris048 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B048" ;
+    :hasTranslation :terjemah_baris048 ;
+    :hasTransliteration :translit_baris048 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris048 .
+
+:baris049 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B049" ;
+    :hasTranslation :terjemah_baris049 ;
+    :hasTransliteration :translit_baris049 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris049 .
+
+:baris050 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B050" ;
+    :hasTranslation :terjemah_baris050 ;
+    :hasTransliteration :translit_baris050 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris050 .
+
+:baris051 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B051" ;
+    :hasTranslation :terjemah_baris051 ;
+    :hasTransliteration :translit_baris051 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris051 .
+
+:baris052 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B052" ;
+    :hasTranslation :terjemah_baris052 ;
+    :hasTransliteration :translit_baris052 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris052 .
+
+:baris053 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B053" ;
+    :hasTranslation :terjemah_baris053 ;
+    :hasTransliteration :translit_baris053 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris053 .
+
+:baris054 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B054" ;
+    :hasTranslation :terjemah_baris054 ;
+    :hasTransliteration :translit_baris054 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris054 .
+
+:baris055 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B055" ;
+    :hasTranslation :terjemah_baris055 ;
+    :hasTransliteration :translit_baris055 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris055 .
+
+:baris056 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B056" ;
+    :hasTranslation :terjemah_baris056 ;
+    :hasTransliteration :translit_baris056 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris056 .
+
+:baris057 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B057" ;
+    :hasTranslation :terjemah_baris057 ;
+    :hasTransliteration :translit_baris057 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris057 .
+
+:baris058 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B058" ;
+    :hasTranslation :terjemah_baris058 ;
+    :hasTransliteration :translit_baris058 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris058 .
+
+:baris059 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B059" ;
+    :hasTranslation :terjemah_baris059 ;
+    :hasTransliteration :translit_baris059 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris059 .
+
+:baris060 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B060" ;
+    :hasTranslation :terjemah_baris060 ;
+    :hasTransliteration :translit_baris060 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris060 .
+
+:baris061 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B061" ;
+    :hasTranslation :terjemah_baris061 ;
+    :hasTransliteration :translit_baris061 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris061 .
+
+:baris062 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B062" ;
+    :hasTranslation :terjemah_baris062 ;
+    :hasTransliteration :translit_baris062 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris062 .
+
+:baris063 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B063" ;
+    :hasTranslation :terjemah_baris063 ;
+    :hasTransliteration :translit_baris063 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris063 .
+
+:baris064 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B064" ;
+    :hasTranslation :terjemah_baris064 ;
+    :hasTransliteration :translit_baris064 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris064 .
+
+:baris065 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B065" ;
+    :hasTranslation :terjemah_baris065 ;
+    :hasTransliteration :translit_baris065 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris065 .
+
+:baris066 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B066" ;
+    :hasTranslation :terjemah_baris066 ;
+    :hasTransliteration :translit_baris066 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris066 .
+
+:baris067 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B067" ;
+    :hasTranslation :terjemah_baris067 ;
+    :hasTransliteration :translit_baris067 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris067 .
+
+:baris068 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B068" ;
+    :hasTranslation :terjemah_baris068 ;
+    :hasTransliteration :translit_baris068 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris068 .
+
+:baris069 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B069" ;
+    :hasTranslation :terjemah_baris069 ;
+    :hasTransliteration :translit_baris069 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris069 .
+
+:baris070 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B070" ;
+    :hasTranslation :terjemah_baris070 ;
+    :hasTransliteration :translit_baris070 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris070 .
+
+:baris071 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B071" ;
+    :hasTranslation :terjemah_baris071 ;
+    :hasTransliteration :translit_baris071 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris071 .
+
+:baris072 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B072" ;
+    :hasTranslation :terjemah_baris072 ;
+    :hasTransliteration :translit_baris072 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris072 .
+
+:baris073 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B073" ;
+    :hasTranslation :terjemah_baris073 ;
+    :hasTransliteration :translit_baris073 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris073 .
+
+:baris074 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B074" ;
+    :hasTranslation :terjemah_baris074 ;
+    :hasTransliteration :translit_baris074 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris074 .
+
+:baris075 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B075" ;
+    :hasTranslation :terjemah_baris075 ;
+    :hasTransliteration :translit_baris075 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris075 .
+
+:baris076 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B076" ;
+    :hasTranslation :terjemah_baris076 ;
+    :hasTransliteration :translit_baris076 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris076 .
+
+:baris077 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B077" ;
+    :hasTranslation :terjemah_baris077 ;
+    :hasTransliteration :translit_baris077 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris077 .
+
+:baris078 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B078" ;
+    :hasTranslation :terjemah_baris078 ;
+    :hasTransliteration :translit_baris078 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris078 .
+
+:baris079 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B079" ;
+    :hasTranslation :terjemah_baris079 ;
+    :hasTransliteration :translit_baris079 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris079 .
+
+:baris080 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B080" ;
+    :hasTranslation :terjemah_baris080 ;
+    :hasTransliteration :translit_baris080 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris080 .
+
+:baris081 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B081" ;
+    :hasTranslation :terjemah_baris081 ;
+    :hasTransliteration :translit_baris081 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris081 .
+
+:baris082 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B082" ;
+    :hasTranslation :terjemah_baris082 ;
+    :hasTransliteration :translit_baris082 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris082 .
+
+:baris083 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B083" ;
+    :hasTranslation :terjemah_baris083 ;
+    :hasTransliteration :translit_baris083 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris083 .
+
+:baris084 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B084" ;
+    :hasTranslation :terjemah_baris084 ;
+    :hasTransliteration :translit_baris084 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris084 .
+
+:baris085 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B085" ;
+    :hasTranslation :terjemah_baris085 ;
+    :hasTransliteration :translit_baris085 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris085 .
+
+:baris086 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B086" ;
+    :hasTranslation :terjemah_baris086 ;
+    :hasTransliteration :translit_baris086 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris086 .
+
+:baris087 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B087" ;
+    :hasTranslation :terjemah_baris087 ;
+    :hasTransliteration :translit_baris087 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris087 .
+
+:baris088 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B088" ;
+    :hasTranslation :terjemah_baris088 ;
+    :hasTransliteration :translit_baris088 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris088 .
+
+:baris089 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B089" ;
+    :hasTranslation :terjemah_baris089 ;
+    :hasTransliteration :translit_baris089 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris089 .
+
+:baris090 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B090" ;
+    :hasTranslation :terjemah_baris090 ;
+    :hasTransliteration :translit_baris090 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris090 .
+
+:baris091 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B091" ;
+    :hasTranslation :terjemah_baris091 ;
+    :hasTransliteration :translit_baris091 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris091 .
+
+:baris092 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B092" ;
+    :hasTranslation :terjemah_baris092 ;
+    :hasTransliteration :translit_baris092 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris092 .
+
+:baris093 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B093" ;
+    :hasTranslation :terjemah_baris093 ;
+    :hasTransliteration :translit_baris093 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris093 .
+
+:baris094 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B094" ;
+    :hasTranslation :terjemah_baris094 ;
+    :hasTransliteration :translit_baris094 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris094 .
+
+:baris095 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B095" ;
+    :hasTranslation :terjemah_baris095 ;
+    :hasTransliteration :translit_baris095 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris095 .
+
+:baris096 a :BarisNaskah ;
+    dcterms:identifier "YUSUP01-B096" ;
+    :hasTranslation :terjemah_baris096 ;
+    :hasTransliteration :translit_baris096 ;
+    :isFromManuscript :naskahYusup01 ;
+    :mengandungAksara :aksara_baris096 .
+
+:aksara_baris001 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris001.png"@urlImage .
+
+:aksara_baris002 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris002.png"@urlImage .
+
+:aksara_baris003 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris003.png"@urlImage .
+
+:aksara_baris004 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris004.png"@urlImage .
+
+:aksara_baris005 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris005.png"@urlImage .
+
+:aksara_baris006 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris006.png"@urlImage .
+
+:aksara_baris007 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris007.png"@urlImage .
+
+:aksara_baris008 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris008.png"@urlImage .
+
+:aksara_baris009 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris009.png"@urlImage .
+
+:aksara_baris010 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris010.png"@urlImage .
+
+:aksara_baris011 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris011.png"@urlImage .
+
+:aksara_baris012 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris012.png"@urlImage .
+
+:aksara_baris013 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris013.png"@urlImage .
+
+:aksara_baris014 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris014.png"@urlImage .
+
+:aksara_baris015 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris015.png"@urlImage .
+
+:aksara_baris016 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris016.png"@urlImage .
+
+:aksara_baris017 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris017.png"@urlImage .
+
+:aksara_baris018 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris018.png"@urlImage .
+
+:aksara_baris019 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris019.png"@urlImage .
+
+:aksara_baris020 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris020.png"@urlImage .
+
+:aksara_baris021 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris021.png"@urlImage .
+
+:aksara_baris022 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris022.png"@urlImage .
+
+:aksara_baris023 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris023.png"@urlImage .
+
+:aksara_baris024 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris024.png"@urlImage .
+
+:aksara_baris025 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris025.png"@urlImage .
+
+:aksara_baris026 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris026.png"@urlImage .
+
+:aksara_baris027 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris027.png"@urlImage .
+
+:aksara_baris028 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris028.png"@urlImage .
+
+:aksara_baris029 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris029.png"@urlImage .
+
+:aksara_baris030 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris030.png"@urlImage .
+
+:aksara_baris031 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris031.png"@urlImage .
+
+:aksara_baris032 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris032.png"@urlImage .
+
+:aksara_baris033 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris033.png"@urlImage .
+
+:aksara_baris034 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris034.png"@urlImage .
+
+:aksara_baris035 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris035.png"@urlImage .
+
+:aksara_baris036 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris036.png"@urlImage .
+
+:aksara_baris037 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris037.png"@urlImage .
+
+:aksara_baris038 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris038.png"@urlImage .
+
+:aksara_baris039 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris039.png"@urlImage .
+
+:aksara_baris040 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris040.png"@urlImage .
+
+:aksara_baris041 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris041.png"@urlImage .
+
+:aksara_baris042 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris042.png"@urlImage .
+
+:aksara_baris043 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris043.png"@urlImage .
+
+:aksara_baris044 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris044.png"@urlImage .
+
+:aksara_baris045 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris045.png"@urlImage .
+
+:aksara_baris046 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris046.png"@urlImage .
+
+:aksara_baris047 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris047.png"@urlImage .
+
+:aksara_baris048 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris048.png"@urlImage .
+
+:aksara_baris049 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris049.png"@urlImage .
+
+:aksara_baris050 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris050.png"@urlImage .
+
+:aksara_baris051 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris051.png"@urlImage .
+
+:aksara_baris052 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris052.png"@urlImage .
+
+:aksara_baris053 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris053.png"@urlImage .
+
+:aksara_baris054 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris054.png"@urlImage .
+
+:aksara_baris055 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris055.png"@urlImage .
+
+:aksara_baris056 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris056.png"@urlImage .
+
+:aksara_baris057 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris057.png"@urlImage .
+
+:aksara_baris058 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris058.png"@urlImage .
+
+:aksara_baris059 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris059.png"@urlImage .
+
+:aksara_baris060 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris060.png"@urlImage .
+
+:aksara_baris061 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris061.png"@urlImage .
+
+:aksara_baris062 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris062.png"@urlImage .
+
+:aksara_baris063 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris063.png"@urlImage .
+
+:aksara_baris064 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris064.png"@urlImage .
+
+:aksara_baris065 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris065.png"@urlImage .
+
+:aksara_baris066 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris066.png"@urlImage .
+
+:aksara_baris067 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris067.png"@urlImage .
+
+:aksara_baris068 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris068.png"@urlImage .
+
+:aksara_baris069 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris069.png"@urlImage .
+
+:aksara_baris070 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris070.png"@urlImage .
+
+:aksara_baris071 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris071.png"@urlImage .
+
+:aksara_baris072 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris072.png"@urlImage .
+
+:aksara_baris073 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris073.png"@urlImage .
+
+:aksara_baris074 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris074.png"@urlImage .
+
+:aksara_baris075 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris075.png"@urlImage .
+
+:aksara_baris076 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris076.png"@urlImage .
+
+:aksara_baris077 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris077.png"@urlImage .
+
+:aksara_baris078 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris078.png"@urlImage .
+
+:aksara_baris079 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris079.png"@urlImage .
+
+:aksara_baris080 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris080.png"@urlImage .
+
+:aksara_baris081 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris081.png"@urlImage .
+
+:aksara_baris082 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris082.png"@urlImage .
+
+:aksara_baris083 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris083.png"@urlImage .
+
+:aksara_baris084 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris084.png"@urlImage .
+
+:aksara_baris085 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris085.png"@urlImage .
+
+:aksara_baris086 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris086.png"@urlImage .
+
+:aksara_baris087 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris087.png"@urlImage .
+
+:aksara_baris088 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris088.png"@urlImage .
+
+:aksara_baris089 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris089.png"@urlImage .
+
+:aksara_baris090 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris090.png"@urlImage .
+
+:aksara_baris091 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris091.png"@urlImage .
+
+:aksara_baris092 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris092.png"@urlImage .
+
+:aksara_baris093 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris093.png"@urlImage .
+
+:aksara_baris094 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris094.png"@urlImage .
+
+:aksara_baris095 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris095.png"@urlImage .
+
+:aksara_baris096 a :TeksAksara ;
+    lexinfo:script :AksaraPegon ;
+    rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris096.png"@urlImage .
+
+:terjemah_baris001 a :Terjemahan ;
+    rdf:value "Tiada diceritakan lagi"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris002 a :Terjemahan ;
+    rdf:value "tentang wanita itu"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris003 a :Terjemahan ;
+    rdf:value "ada kisah lagi"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris004 a :Terjemahan ;
+    rdf:value "Putri dari Temas"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris005 a :Terjemahan ;
+    rdf:value "yang bernama Zulaikha"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris006 a :Terjemahan ;
+    rdf:value "saat berusia sembilan tahun"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris007 a :Terjemahan ;
+    rdf:value "sang putri bunganya jagat"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris008 a :Terjemahan ;
+    rdf:value "cantik di seluruh dunia"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris009 a :Terjemahan ;
+    rdf:value "Berlimpah emas"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris010 a :Terjemahan ;
+    rdf:value "intan berlian yang indah"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris011 a :Terjemahan ;
+    rdf:value "dikasihi ayah bundanya"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris012 a :Terjemahan ;
+    rdf:value "dipenuhi segala kehendaknya"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris013 a :Terjemahan ;
+    rdf:value "tiada berani menentangnya"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris014 a :Terjemahan ;
+    rdf:value "jika sang putri memiliki kehendak"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris015 a :Terjemahan ;
+    rdf:value "semua dituruti"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris016 a :Terjemahan ;
+    rdf:value "oleh ayah bundanya"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris017 a :Terjemahan ;
+    rdf:value "Usai"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris018 a :Terjemahan ;
+    rdf:value "demikianlah sang putri Zulaikha"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris019 a :Terjemahan ;
+    rdf:value "malamnya ia bermimpi"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris020 a :Terjemahan ;
+    rdf:value "bersua dengan Baginda"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris021 a :Terjemahan ;
+    rdf:value "Yusuf yang tampan rupawan"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris022 a :Terjemahan ;
+    rdf:value "ia pun dilanda asmara"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris023 a :Terjemahan ;
+    rdf:value "dalam impiannya itu"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris024 a :Terjemahan ;
+    rdf:value "terlihat jelas di pelupuk matanya"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris025 a :Terjemahan ;
+    rdf:value "Setelah terjaga"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris026 a :Terjemahan ;
+    rdf:value "dari mimpinya sang putri"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris027 a :Terjemahan ;
+    rdf:value "berbinar-binar dilanda rindu"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris028 a :Terjemahan ;
+    rdf:value "maka pagi-pagi sekali"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris029 a :Terjemahan ;
+    rdf:value "ia menghadap ibundanya"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris030 a :Terjemahan ;
+    rdf:value "ada apakah gerangan anakku"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris031 a :Terjemahan ;
+    rdf:value "apa sebabnya kau"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris032 a :Terjemahan ;
+    rdf:value "putriku dilanda rindu"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris033 a :Terjemahan ;
+    rdf:value "berkatalah"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris034 a :Terjemahan ;
+    rdf:value "sang putri ayahandanya itu"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris035 a :Terjemahan ;
+    rdf:value "ibundaku diriku semalam"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris036 a :Terjemahan ;
+    rdf:value "bermimpi melihat"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris037 a :Terjemahan ;
+    rdf:value "seorang lelaki tampan rupawan"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris038 a :Terjemahan ;
+    rdf:value "tiada tanding kerupawanan wajahnya"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris039 a :Terjemahan ;
+    rdf:value "tiada pernah diriku melihat"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris040 a :Terjemahan ;
+    rdf:value "wajah seperti dalam mimpiku semalam"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris041 a :Terjemahan ;
+    rdf:value "Seolah ia"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris042 a :Terjemahan ;
+    rdf:value "berwajah teramat luhur"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris043 a :Terjemahan ;
+    rdf:value "kulitnya kuning"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris044 a :Terjemahan ;
+    rdf:value "semarak berkilauan"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris045 a :Terjemahan ;
+    rdf:value "layaknya sepuhan emas"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris046 a :Terjemahan ;
+    rdf:value "matanya tajam namun lembut"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris047 a :Terjemahan ;
+    rdf:value "seperti tetesan air"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris048 a :Terjemahan ;
+    rdf:value "berperawakan kencana"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris049 a :Terjemahan ;
+    rdf:value "Giginya"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris050 a :Terjemahan ;
+    rdf:value "seperti rangkaian mutiara"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris051 a :Terjemahan ;
+    rdf:value "senyumnya manis bagaikan gula"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris052 a :Terjemahan ;
+    rdf:value "berbinar cahaya"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris053 a :Terjemahan ;
+    rdf:value "memancar dari giginya"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris054 a :Terjemahan ;
+    rdf:value "memancar dari mulutnya yang indah"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris055 a :Terjemahan ;
+    rdf:value "tak ubahnya seperti mentari"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris056 a :Terjemahan ;
+    rdf:value "rambutnya berjuntai indah"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris057 a :Terjemahan ;
+    rdf:value "Tiada mampu"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris058 a :Terjemahan ;
+    rdf:value "aku mengatakannya, Ibunda"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris059 a :Terjemahan ;
+    rdf:value "akan sosok impianku itu"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris060 a :Terjemahan ;
+    rdf:value "seandainya ke penjuru dunia"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris061 a :Terjemahan ;
+    rdf:value "ibunda mencarinya"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris062 a :Terjemahan ;
+    rdf:value "apakah mungkin bisa menjumpainya"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris063 a :Terjemahan ;
+    rdf:value "seusai aku terjaga"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris064 a :Terjemahan ;
+    rdf:value "selalu dilanda rasa was-was"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris065 a :Terjemahan ;
+    rdf:value "Itulah sebabnya diriku"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris066 a :Terjemahan ;
+    rdf:value "dilanda kasmaran teramat sangat \r"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris067 a :Terjemahan ;
+    rdf:value "merindukan sosok dalam impian \r"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris068 a :Terjemahan ;
+    rdf:value "ayah bundanya pun berkata"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris069 a :Terjemahan ;
+    rdf:value "anakku sang dewi "@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris070 a :Terjemahan ;
+    rdf:value "usah kau resah hati "@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris071 a :Terjemahan ;
+    rdf:value "semoga jika memang benar-benar ada"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris072 a :Terjemahan ;
+    rdf:value "sosok dalam mimpimu itu"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris073 a :Terjemahan ;
+    rdf:value "Akan kupanggil ia"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris074 a :Terjemahan ;
+    rdf:value "kunikahkan jadi belahan jiwamu"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris075 a :Terjemahan ;
+    rdf:value "ibu tiada tahu dimana ia berada"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris076 a :Terjemahan ;
+    rdf:value "jika saja kau putriku"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris077 a :Terjemahan ;
+    rdf:value "tahu dimana ia berada"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris078 a :Terjemahan ;
+    rdf:value "segera akan kuantar kau anakku"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris079 a :Terjemahan ;
+    rdf:value "kepada ia yang telah menambat hati"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris080 a :Terjemahan ;
+    rdf:value "putriku sang dewi"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris081 a :Terjemahan ;
+    rdf:value "Seusai lamanya"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris082 a :Terjemahan ;
+    rdf:value "bermimpi, demikian besar rasa rindunya"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris083 a :Terjemahan ;
+    rdf:value "makan tiada lagi berselera"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris084 a :Terjemahan ;
+    rdf:value "terbayang-bayang di mata"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris085 a :Terjemahan ;
+    rdf:value "tertancap di dalam hati"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris086 a :Terjemahan ;
+    rdf:value "diliputi rindu pada sosok dalam impian"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris087 a :Terjemahan ;
+    rdf:value "usai kemudian"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris088 a :Terjemahan ;
+    rdf:value "setelah genap setahun"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris089 a :Terjemahan ;
+    rdf:value "Ia bermimpi (kembali)"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris090 a :Terjemahan ;
+    rdf:value "bersua lagi dengan sosok dalam impian"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris091 a :Terjemahan ;
+    rdf:value "berkatalah sang dewi"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris092 a :Terjemahan ;
+    rdf:value "siapakah kau ini"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris093 a :Terjemahan ;
+    rdf:value "manusiakah atau bukan"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris094 a :Terjemahan ;
+    rdf:value "yang selalu kucari-cari"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris095 a :Terjemahan ;
+    rdf:value "ingin tahu keberadaanmu"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:terjemah_baris096 a :Terjemahan ;
+    rdf:value "berkatalah sang sosok dalam mimpi"@id ;
+    :dariBahasa "jv" ;
+    :keBahasa "id" .
+
+:translit_baris001 a :Transliterasi ;
+    rdf:value "Tan kocapa"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris002 a :Transliterasi ;
+    rdf:value "wong wadon iku dening wang"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris003 a :Transliterasi ;
+    rdf:value "ana kocapa malih"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris004 a :Transliterasi ;
+    rdf:value "putêri nateng Temas"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris005 a :Transliterasi ;
+    rdf:value "namanira Jaleka"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris006 a :Transliterasi ;
+    rdf:value "wayah sangang taun malih"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris007 a :Transliterasi ;
+    rdf:value "kusumaningrat"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris008 a :Transliterasi ;
+    rdf:value "ayu kasubeng bumi"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris009 a :Transliterasi ;
+    rdf:value "Sugih êmas"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris010 a :Transliterasi ;
+    rdf:value "ratna widuri murwendah"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris011 a :Transliterasi ;
+    rdf:value "yaya ibu nira sih"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris012 a :Transliterasi ;
+    rdf:value "winoring sakarsa"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris013 a :Transliterasi ;
+    rdf:value "tan wani-wani malanga"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris014 a :Transliterasi ;
+    rdf:value "yèn ana yunireng putêri"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris015 a :Transliterasi ;
+    rdf:value "tinurut sira"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris016 a :Transliterasi ;
+    rdf:value "dening kang yaya bibi"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris017 a :Transliterasi ;
+    rdf:value "Risampune"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris018 a :Transliterasi ;
+    rdf:value "mêngkana putri soleha"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris019 a :Transliterasi ;
+    rdf:value "dalu sira angipi"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris020 a :Transliterasi ;
+    rdf:value "tumoning Bagendha"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris021 a :Transliterasi ;
+    rdf:value "Yusup pêkik kaliwat"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris022 a :Transliterasi ;
+    rdf:value "dènira kasmaran bêrangti"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris023 a :Transliterasi ;
+    rdf:value "ing jêro sêwapna"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris024 a :Transliterasi ;
+    rdf:value "katon tung-tung ing ngaksi"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris025 a :Transliterasi ;
+    rdf:value "Sapanglilire"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris026 a :Transliterasi ;
+    rdf:value "aguling sang lêwir kusuma"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris027 a :Transliterasi ;
+    rdf:value "awênês asmu bêrangti"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris028 a :Transliterasi ;
+    rdf:value "ya ta injang-injang"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris029 a :Transliterasi ;
+    rdf:value "sira prapteng bu nira"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris030 a :Transliterasi ;
+    rdf:value "kalih anapa ing siwi"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris031 a :Transliterasi ;
+    rdf:value "kolèhe sira"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris032 a :Transliterasi ;
+    rdf:value "nini asmu bêrangti"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris033 a :Transliterasi ;
+    rdf:value "aturira"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris034 a :Transliterasi ;
+    rdf:value "sang putêri pukulun rama"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris035 a :Transliterasi ;
+    rdf:value "ibu manireng uni"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris036 a :Transliterasi ;
+    rdf:value "angipi tumingal"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris037 a :Transliterasi ;
+    rdf:value "wong apêkik kaliwat"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris038 a :Transliterasi ;
+    rdf:value "warnane datan patandhing"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris039 a :Transliterasi ;
+    rdf:value "dèrèng wong mulat"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris040 a :Transliterasi ;
+    rdf:value "rupa kang kepi uni"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris041 a :Transliterasi ;
+    rdf:value "Mêyang kadi"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris042 a :Transliterasi ;
+    rdf:value "luhunging rupa kaliwat"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris043 a :Transliterasi ;
+    rdf:value "pamulune akuning"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris044 a :Transliterasi ;
+    rdf:value "sarira gumawang"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris045 a :Transliterasi ;
+    rdf:value "yaya mas sinêpuhan"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris046 a :Transliterasi ;
+    rdf:value "sutêya yaya kêras neng rawit"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris047 a :Transliterasi ;
+    rdf:value "lêwir tumêrètèsa"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris048 a :Transliterasi ;
+    rdf:value "pawakannya rinukmi"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris049 a :Transliterasi ;
+    rdf:value "Wajanira"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris050 a :Transliterasi ;
+    rdf:value "lêwir muntêyara sinundukan"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris051 a :Transliterasi ;
+    rdf:value "èsêm ira lêwir gêndhis"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris052 a :Transliterasi ;
+    rdf:value "awêtu kang cahya"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris053 a :Transliterasi ;
+    rdf:value "saking kênyaring waja"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris054 a :Transliterasi ;
+    rdf:value "nyumunuh ing wêdana sêri"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris055 a :Transliterasi ;
+    rdf:value "lêwir pendah surya"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris056 a :Transliterasi ;
+    rdf:value "rema andêrawila sêr"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris057 a :Transliterasi ;
+    rdf:value "Tan kuwasa"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris058 a :Transliterasi ;
+    rdf:value "Ibu kawula murjita"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris059 a :Transliterasi ;
+    rdf:value "ing warnane sang kepi"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris060 a :Transliterasi ;
+    rdf:value "nadêyan satungkêb rat"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris061 a :Transliterasi ;
+    rdf:value "ibu angulatana"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris062 a :Transliterasi ;
+    rdf:value "mangsa manggiya kêkalih"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris063 a :Transliterasi ;
+    rdf:value "satangi nira"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris064 a :Transliterasi ;
+    rdf:value "tansah sumêlang ngaksi"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris065 a :Transliterasi ;
+    rdf:value "Mula ningsun "@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris066 a :Transliterasi ;
+    rdf:value "sak agêng bêrangta gung remang \r"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris067 a :Transliterasi ;
+    rdf:value "kangên sang kepi nguni  \r"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris068 a :Transliterasi ;
+    rdf:value "yayebu ngartika  "@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris069 a :Transliterasi ;
+    rdf:value "anak ingsun pangeran"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris070 a :Transliterasi ;
+    rdf:value "sampun sira bunêk ati "@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris071 a :Transliterasi ;
+    rdf:value "yèn sih anaha"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris072 a :Transliterasi ;
+    rdf:value "mêne sang kepi uni"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris073 a :Transliterasi ;
+    rdf:value "Sun timbali"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris074 a :Transliterasi ;
+    rdf:value "dadi kêrama nira nyawa"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris075 a :Transliterasi ;
+    rdf:value "ibu tan wêrin gon gusti"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris076 a :Transliterasi ;
+    rdf:value "mênawa anak ing wang"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris077 a :Transliterasi ;
+    rdf:value "wêruh parnahe pangeran"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris078 a :Transliterasi ;
+    rdf:value "enage sun atêr nini"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris079 a :Transliterasi ;
+    rdf:value "kang tan sêweng nala"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris080 a :Transliterasi ;
+    rdf:value "nira nimas dèwi"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris081 a :Transliterasi ;
+    rdf:value "Selamine "@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris082 a :Transliterasi ;
+    rdf:value "angipi sok agêng bêrangta"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris083 a :Transliterasi ;
+    rdf:value "tan kêna buktiya goling"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris084 a :Transliterasi ;
+    rdf:value "gumêrit ing tingal"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris085 a :Transliterasi ;
+    rdf:value "sumêlèng ing wardaya"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris086 a :Transliterasi ;
+    rdf:value "tansah kangêning sang kepi"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris087 a :Transliterasi ;
+    rdf:value "risampunira"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris088 a :Transliterasi ;
+    rdf:value "gênêp satahun malih"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris089 a :Transliterasi ;
+    rdf:value "Asêwapna"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris090 a :Transliterasi ;
+    rdf:value "panganggih sang kepi kuna"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris091 a :Transliterasi ;
+    rdf:value "lingira sang suh dèwi"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris092 a :Transliterasi ;
+    rdf:value "punapa pangeran"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris093 a :Transliterasi ;
+    rdf:value "manusa reka iya"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris094 a :Transliterasi ;
+    rdf:value "enage sun ulati"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris095 a :Transliterasi ;
+    rdf:value "kahanan tuwan"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:translit_baris096 a :Transliterasi ;
+    rdf:value "sumahur ing sang kepi"@jv-Latn ;
+    :menggunakanAturan "Transliterasi Arab Pegon Standar" .
+
+:naskahYusup01 a :Manuskrip ;
+    dcterms:language "jv" ;
+    dcterms:title "Lontar Yusup Banyuwangi"@jv ;
+    :ditulisMenggunakan :AksaraPegon .
+
+:AksaraPegon a :SistemTulisan ;
+    rdfs:label "Arab Pegon"@id .
+
