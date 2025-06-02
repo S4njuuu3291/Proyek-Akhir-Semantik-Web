@@ -1,8 +1,116 @@
 @prefix : <http://yusupbanyuwangi.org/ontology#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+############################################################
+# Deklarasi Ontologi
+############################################################
+
+<http://yusupbanyuwangi.org/ontology> a owl:Ontology ;
+    rdfs:label "Ontologi Lontar Yusup Banyuwangi"@id ;
+    dcterms:created "2025-05-20"^^xsd:date ;
+    dcterms:creator "Kelompok SemWeb" ;
+    owl:versionInfo "1.0" .
+
+############################################################
+# Definisi Kelas (owl:Class)
+############################################################
+
+:SistemTulisan a owl:Class ;
+    rdfs:label "Sistem Tulisan"@id ;
+    rdfs:comment "Jenis sistem tulisan yang digunakan (misal Pegon)."@id .
+
+:Manuskrip a owl:Class ;
+    rdfs:label "Manuskrip"@id ;
+    rdfs:comment "Representasi naskah kuno Lontar Yusup."@id .
+
+:BarisNaskah a owl:Class ;
+    rdfs:label "Baris Naskah"@id ;
+    rdfs:comment "Satu baris dalam naskah Lontar."@id .
+
+:TeksAksara a owl:Class ;
+    rdfs:label "Teks Aksara"@id ;
+    rdfs:comment "Teks dalam aksara asli (Arab Pegon)."@id .
+
+:Transliterasi a owl:Class ;
+    rdfs:label "Transliterasi"@id ;
+    rdfs:comment "Teks hasil transliterasi ke Latin."@id .
+
+:Terjemahan a owl:Class ;
+    rdfs:label "Terjemahan"@id ;
+    rdfs:comment "Teks hasil terjemahan ke Bahasa Indonesia."@id .
+
+############################################################
+# Definisi Object Property (owl:ObjectProperty)
+############################################################
+
+:ditulisMenggunakan a owl:ObjectProperty ;
+    rdfs:label "ditulis menggunakan"@id ;
+    rdfs:domain :Manuskrip ;
+    rdfs:range :SistemTulisan .
+
+:isFromManuscript a owl:ObjectProperty ;
+    rdfs:label "berasal dari manuskrip"@id ;
+    rdfs:domain :BarisNaskah ;
+    rdfs:range :Manuskrip .
+
+:mengandungAksara a owl:ObjectProperty ;
+    rdfs:label "mengandung aksara"@id ;
+    rdfs:domain :BarisNaskah ;
+    rdfs:range :TeksAksara .
+
+:hasTransliteration a owl:ObjectProperty ;
+    rdfs:label "memiliki transliterasi"@id ;
+    rdfs:domain :BarisNaskah ;
+    rdfs:range :Transliterasi .
+
+:hasTranslation a owl:ObjectProperty ;
+    rdfs:label "memiliki terjemahan"@id ;
+    rdfs:domain :BarisNaskah ;
+    rdfs:range :Terjemahan .
+
+############################################################
+# Definisi Datatype Property (owl:DatatypeProperty)
+############################################################
+
+rdf:value a owl:DatatypeProperty ;
+    rdfs:label "nilai literal"@id ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:string .
+
+:keBahasa a owl:DatatypeProperty ;
+    rdfs:label "ke Bahasa"@id ;
+    rdfs:domain :Terjemahan ;
+    rdfs:range xsd:string .
+
+:dariBahasa a owl:DatatypeProperty ;
+    rdfs:label "dari Bahasa"@id ;
+    rdfs:domain :Terjemahan ;
+    rdfs:range xsd:string .
+
+:menggunakanAturan a owl:DatatypeProperty ;
+    rdfs:label "menggunakan aturan"@id ;
+    rdfs:domain :Transliterasi ;
+    rdfs:range xsd:string .
+
+############################################################
+# Instance Tetap
+############################################################
+
+:AksaraPegon a :SistemTulisan ;
+    rdfs:label "Arab Pegon"@id .
+
+:naskahYusup01 a :Manuskrip ;
+    dcterms:language "jv" ;
+    dcterms:title "Lontar Yusup Banyuwangi"@jv ;
+    :ditulisMenggunakan :AksaraPegon .
+
+############################################################
+# Instance Baris Naskah
+############################################################
 
 :baris001 a :BarisNaskah ;
     dcterms:identifier "YUSUP01-B001" ;
@@ -677,387 +785,291 @@
     :mengandungAksara :aksara_baris096 .
 
 :aksara_baris001 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris001.png"@urlImage .
 
 :aksara_baris002 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris002.png"@urlImage .
 
 :aksara_baris003 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris003.png"@urlImage .
 
 :aksara_baris004 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris004.png"@urlImage .
 
 :aksara_baris005 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris005.png"@urlImage .
 
 :aksara_baris006 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris006.png"@urlImage .
 
 :aksara_baris007 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris007.png"@urlImage .
 
 :aksara_baris008 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris008.png"@urlImage .
 
 :aksara_baris009 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris009.png"@urlImage .
 
 :aksara_baris010 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris010.png"@urlImage .
 
 :aksara_baris011 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris011.png"@urlImage .
 
 :aksara_baris012 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris012.png"@urlImage .
 
 :aksara_baris013 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris013.png"@urlImage .
 
 :aksara_baris014 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris014.png"@urlImage .
 
 :aksara_baris015 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris015.png"@urlImage .
 
 :aksara_baris016 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris016.png"@urlImage .
 
 :aksara_baris017 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris017.png"@urlImage .
 
 :aksara_baris018 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris018.png"@urlImage .
 
 :aksara_baris019 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris019.png"@urlImage .
 
 :aksara_baris020 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris020.png"@urlImage .
 
 :aksara_baris021 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris021.png"@urlImage .
 
 :aksara_baris022 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris022.png"@urlImage .
 
 :aksara_baris023 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris023.png"@urlImage .
 
 :aksara_baris024 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris024.png"@urlImage .
 
 :aksara_baris025 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris025.png"@urlImage .
 
 :aksara_baris026 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris026.png"@urlImage .
 
 :aksara_baris027 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris027.png"@urlImage .
 
 :aksara_baris028 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris028.png"@urlImage .
 
 :aksara_baris029 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris029.png"@urlImage .
 
 :aksara_baris030 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris030.png"@urlImage .
 
 :aksara_baris031 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris031.png"@urlImage .
 
 :aksara_baris032 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris032.png"@urlImage .
 
 :aksara_baris033 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris033.png"@urlImage .
 
 :aksara_baris034 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris034.png"@urlImage .
 
 :aksara_baris035 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris035.png"@urlImage .
 
 :aksara_baris036 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris036.png"@urlImage .
 
 :aksara_baris037 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris037.png"@urlImage .
 
 :aksara_baris038 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris038.png"@urlImage .
 
 :aksara_baris039 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris039.png"@urlImage .
 
 :aksara_baris040 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris040.png"@urlImage .
 
 :aksara_baris041 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris041.png"@urlImage .
 
 :aksara_baris042 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris042.png"@urlImage .
 
 :aksara_baris043 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris043.png"@urlImage .
 
 :aksara_baris044 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris044.png"@urlImage .
 
 :aksara_baris045 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris045.png"@urlImage .
 
 :aksara_baris046 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris046.png"@urlImage .
 
 :aksara_baris047 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris047.png"@urlImage .
 
 :aksara_baris048 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris048.png"@urlImage .
 
 :aksara_baris049 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris049.png"@urlImage .
 
 :aksara_baris050 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris050.png"@urlImage .
 
 :aksara_baris051 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris051.png"@urlImage .
 
 :aksara_baris052 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris052.png"@urlImage .
 
 :aksara_baris053 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris053.png"@urlImage .
 
 :aksara_baris054 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris054.png"@urlImage .
 
 :aksara_baris055 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris055.png"@urlImage .
 
 :aksara_baris056 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris056.png"@urlImage .
 
 :aksara_baris057 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris057.png"@urlImage .
 
 :aksara_baris058 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris058.png"@urlImage .
 
 :aksara_baris059 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris059.png"@urlImage .
 
 :aksara_baris060 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris060.png"@urlImage .
 
 :aksara_baris061 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris061.png"@urlImage .
 
 :aksara_baris062 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris062.png"@urlImage .
 
 :aksara_baris063 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris063.png"@urlImage .
 
 :aksara_baris064 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris064.png"@urlImage .
 
 :aksara_baris065 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris065.png"@urlImage .
 
 :aksara_baris066 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris066.png"@urlImage .
 
 :aksara_baris067 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris067.png"@urlImage .
 
 :aksara_baris068 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris068.png"@urlImage .
 
 :aksara_baris069 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris069.png"@urlImage .
 
 :aksara_baris070 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris070.png"@urlImage .
 
 :aksara_baris071 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris071.png"@urlImage .
 
 :aksara_baris072 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris072.png"@urlImage .
 
 :aksara_baris073 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris073.png"@urlImage .
 
 :aksara_baris074 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris074.png"@urlImage .
 
 :aksara_baris075 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris075.png"@urlImage .
 
 :aksara_baris076 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris076.png"@urlImage .
 
 :aksara_baris077 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris077.png"@urlImage .
 
 :aksara_baris078 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris078.png"@urlImage .
 
 :aksara_baris079 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris079.png"@urlImage .
 
 :aksara_baris080 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris080.png"@urlImage .
 
 :aksara_baris081 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris081.png"@urlImage .
 
 :aksara_baris082 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris082.png"@urlImage .
 
 :aksara_baris083 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris083.png"@urlImage .
 
 :aksara_baris084 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris084.png"@urlImage .
 
 :aksara_baris085 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris085.png"@urlImage .
 
 :aksara_baris086 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris086.png"@urlImage .
 
 :aksara_baris087 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris087.png"@urlImage .
 
 :aksara_baris088 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris088.png"@urlImage .
 
 :aksara_baris089 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris089.png"@urlImage .
 
 :aksara_baris090 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris090.png"@urlImage .
 
 :aksara_baris091 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris091.png"@urlImage .
 
 :aksara_baris092 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris092.png"@urlImage .
 
 :aksara_baris093 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris093.png"@urlImage .
 
 :aksara_baris094 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris094.png"@urlImage .
 
 :aksara_baris095 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris095.png"@urlImage .
 
 :aksara_baris096 a :TeksAksara ;
-    lexinfo:script :AksaraPegon ;
     rdf:value "https://raw.githubusercontent.com/S4njuuu3291/Proyek-Akhir-Semantik-Web/main/gambarAksaraPegonPerBaris/baris096.png"@urlImage .
 
 :terjemah_baris001 a :Terjemahan ;
@@ -1552,7 +1564,7 @@
     rdf:value "ana kocapa malih"@jv-Latn ;
     :menggunakanAturan "Transliterasi Arab Pegon Standar" .
 
-:translit_baris004 a :Transliterasi ;
+:translit_baris004 a :Transliterasi ;   
     rdf:value "putêri nateng Temas"@jv-Latn ;
     :menggunakanAturan "Transliterasi Arab Pegon Standar" .
 
@@ -1923,12 +1935,4 @@
 :translit_baris096 a :Transliterasi ;
     rdf:value "sumahur ing sang kepi"@jv-Latn ;
     :menggunakanAturan "Transliterasi Arab Pegon Standar" .
-
-:naskahYusup01 a :Manuskrip ;
-    dcterms:language "jv" ;
-    dcterms:title "Lontar Yusup Banyuwangi"@jv ;
-    :ditulisMenggunakan :AksaraPegon .
-
-:AksaraPegon a :SistemTulisan ;
-    rdfs:label "Arab Pegon"@id .
 
