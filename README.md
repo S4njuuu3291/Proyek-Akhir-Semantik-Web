@@ -24,7 +24,7 @@ Setelah diekstrak, jalankan server:
 
 _Contoh terminal saat menjalankan Fuseki:_
 
-## ![Gambar terminal menjalankan ./fuseki-server](image.png)
+## ![Gambar terminal menjalankan ./fuseki-server](img-docum/image.png)
 
 ### 2. Akses Antarmuka Web Fuseki
 
