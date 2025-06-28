@@ -1,2 +1,6 @@
-streamlit
 pandas
+rdflib
+streamlit
+SPARQLWrapper
+wordcloud
+matplotlib
